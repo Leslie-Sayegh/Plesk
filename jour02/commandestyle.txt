@@ -1,0 +1,37 @@
+  <style type="text/css">
+  corps {
+    rembourrage gauche : 11em ;
+    famille de polices : Georgia, "Times New Roman",
+          Heures, empattements ;
+    couleur violet;
+    couleur de fond : #d8da3d }
+  ul.navbar {
+    type de style de liste : aucun ;
+    rembourrage : 0 ;
+    marge : 0 ;
+    position : absolue ;
+    haut : 2em ;
+    gauche : 1em ;
+    largeur : 9em }
+  h1 {
+    famille de polices : Helvetica, Genève, Arial,
+          SunSans-Regular, sans-serif }
+  ul.navbar li {
+    fond : blanc ;
+    marge : 0.5em 0 ;
+    rembourrage : 0,3 em ;
+    border-right : 1em noir uni }
+  ul.navbar a {
+    décoration de texte : aucune }
+  un lien {
+    Couleur bleue }
+  un : visité {
+    couleur violet }
+  </style>
+</tête>
+
+.......
+
+#couper et coller sauf style dans nouveau dossier .css
+# puis remplacer  tous texte style inclue par :
+    link rel="stylesheet" href="monstyle.css">

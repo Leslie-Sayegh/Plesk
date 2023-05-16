@@ -1,0 +1,236 @@
+body {
+
+  background-color: #5e5eed ;
+}
+
+
+/* Style pour l'en-tête */
+
+header {
+    background-color: white;
+    height: 7m;
+    width: 100%;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #logo {
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .sub-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sub-menu li {
+    margin: 0 1rem;
+  }
+  
+  .sub-menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Style pour les deux colonnes */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .column {
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .column {
+  text-align: center;
+  
+}
+
+.colonne.centrale {
+  background-color: white;
+  flex: 1;
+  text-align: center;
+}
+
+/* Style pour la colonne de gauche sans image */
+.column.left {
+  background-color: #fff;
+  color: #f6efef;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: rgb(245, 232, 232);
+}
+
+/* Style pour la colonne de droite sans image */
+.column.right {
+  background-color: #f5f5f5;
+  color: #666;
+  font-family: Verdana, sans-serif;
+}
+
+
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1, h3 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+h1:last-of-type {
+  margin-bottom: 2em;
+}
+
+label.btn-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+h4 {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5em;
+}
+
+
+  /* Style pour la colonne de gauche */
+  .image {
+    position: relative;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(253, 247, 247, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 8, 8);
+  }
+  
+
+  .btn-checkbox {
+    position: absolute;
+    top: center;
+    left: center;
+    display: inline-block;
+    padding: 10px 10px;
+    border: 6px solid red;
+    border-radius: 3px;
+    background-color: rgb(73, 29, 155);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+   
+  }
+  
+  
+  
+  .btn-checkbox:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn-checkbox input[type="checkbox"] {
+    width: 0.5rem;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+    position: center;
+    top: 1px; /* adjust this value if necessary */
+    left: 0;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: scale(0.5); /* for Safari and Chrome */
+    transform: scale(0.5); /* for other browsers */
+  }
+  
+
+  
+  .btn-checkbox span {
+    margin-left: 1rem;
+  }
+  
+  /* Style pour la colonne de droite */
+  .column:last-child {
+    text-align: center;
+  }
+  
+  .column:last-child img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: rgb(125, 155, 229);
+    color: #000;
+    height: 5.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer h2, footer p {
+    text-align: center;
+  }
+  
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  list-style: none

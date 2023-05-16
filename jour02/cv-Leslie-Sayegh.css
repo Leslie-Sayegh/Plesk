@@ -1,0 +1,69 @@
+body {
+    color: rgb(7, 6, 7);
+    background-color: #fbfbfa ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #ccc;
+    background-color: beige;
+    padding: 10px;
+    /*height: 100vh; /* réglez la hauteur en fonction de vos besoins */
+} 
+  
+.colonne-droite {
+    border: 10px solid #f0d2d2;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+
+.text-center {
+    text-align: center;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .item i {
+    margin-right: 10px;
+  }
+  .indent {
+    text-indent: 20px;
+  }
+  
+  
+.text-indent {
+    padding-left: 40px; /* La largeur de la tabulation */
+}
+
+a {
+    display: inline-block;
+    padding-left: 20px; /* Ajoutez de l'espace à gauche de l'icône */
+    font-size: 16px;
+    color: #05598c; /* Couleur du texte du lien */
+}
+  
+a i.fab.fa-linkedin {
+    color: #0077B5; /* Couleur de l'icône */
+}
+
+#accueil-link {
+  font-size: 40px;
+}
+
+  
+  
