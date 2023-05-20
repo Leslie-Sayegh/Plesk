@@ -1,6 +1,9 @@
 body {
 
   background-color: #5e5eed ;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -8,7 +11,7 @@ body {
 
 header {
     background-color: white;
-    height: 7m;
+    height: 10m;
     width: 100%;
   }
   
@@ -16,7 +19,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 300%;
   }
   
   #logo {
@@ -32,6 +35,9 @@ header {
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-size: 30px; /* Nouvelle taille de police */
+    font-weight: bold!important; /* Texte en gras */
+    
   }
   
   .sub-menu li {
@@ -48,30 +54,103 @@ header {
   .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin-top: 1rem;
+    text-align: justify;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold!important;
+    color: white;
   }
   
-  .column {
-    width: 40%;
-    padding: 1rem;
-    text-align: center;
+  
+  .container.page-specific {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    height: 100vh;
+  }
+  
+  .container.page-specific .article-wrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.video-wrapper {
+  flex-basis: 330.33%;
+  width: 100%;
+  height: 100vh;
+ 
+padding: 0 5px;
+}
+  .container.page-specific h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .container.page-specific h3 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+  }
+  
+  .container.page-specific p {
+    font-size: 1em;
+  }
+  
+  .container.page-specific strong {
+    font-weight: bold;
+  }
+  
+
+  .video-wrapper {
+    flex-grow: 1;
+    margin: 0 10px;
   }
 
+
+
+  .column {
+    flex: 1; /* Les deux colonnes prendront autant d'espace disponible */         
+    padding: 1rem;
+        text-align: center;
+        display: flex;
+          
+    flex-direction: column;
+          
+    justify-content: center;
+        
+    box-align : center
+   
+  }
   .column {
   text-align: center;
-  
-}
+  }
 
 .colonne.centrale {
   background-color: white;
   flex: 1;
   text-align: center;
+      flex: 1; /* Les deux colonnes prendront autant d'espace disponible */     
+       
+    padding: 1rem;
+        text-align: center;
+        display: flex;
+          
+    flex-direction: column;
+          
+    justify-content: center;
+        
+    box-align : center
 }
 
 /* Style pour la colonne de gauche sans image */
 .column.left {
-  background-color: #fff;
+  background-color: #5b20f1;
   color: #f6efef;
   font-family: Arial, sans-serif;
   justify-content: center;
@@ -81,7 +160,7 @@ header {
 
 /* Style pour la colonne de droite sans image */
 .column.right {
-  background-color: #f5f5f5;
+  background-color: #5b20f1;
   color: #666;
   font-family: Verdana, sans-serif;
 }
@@ -162,6 +241,20 @@ input[type="checkbox"] {
    
   }
   
+  .inscription-button {
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-color: #ff2063;
+    border-radius: 5px;
+    letter-spacing: 0px;
+    font-size: 45px; /* Nouvelle taille de police */
+    font-weight: bold!important; /* Texte en gras */
+    text-transform: uppercase!important;
+    background-color: #ff2063;
+    padding: 30px 150px; /* Augmentation de la taille du bouton */
+}
+
+
   
   
   .btn-checkbox:hover {
@@ -212,6 +305,12 @@ input[type="checkbox"] {
     right: 0;
   }
   
+  footer::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   footer h2, footer p {
     text-align: center;
   }
